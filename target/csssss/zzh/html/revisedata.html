@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>修改资料</title>
+    <link href="../css/revisedata.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="index">
+    <!--头部导航-->
+    <div class="header">
+        <div class="nav">
+            <img src="../img/logo.jpg" class="navimg">
+            <div class="navbar">
+                <ul>
+                    <li><a href="index.html">主页</a></li>
+                    <li><a href="xiyou.html">校园</a></li>
+                    <li><a href="story.html">故事</a></li>
+                    <li><a href="login.html">登录</a></li>
+                    <li><a href="register.html">注册</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--左侧部分-->
+    <div class="leftcontain">
+        <div class="editor">
+            <ul>
+                <li><a href="javascript:;" class="selected">编辑个人资料</a></li>
+                <li><a href="javascript:;">用户反馈</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--右侧部分-->
+    <div class="rightcontain">
+        <div class="revisedata">
+            <p class="p1">编辑个人资料</p>
+            <!--编辑头像-->
+            <div class="touxiang">
+                <img class="profile" src="../img/profile.jpg">
+                <input class="shangchuan" type="button" value="上传头像">
+            </div>
+            <div class="ziliao">
+                <p class="p2">名字</p><input type="text" class="name" id="username"><br>
+                <p class="p3">性别</p><input type="radio" name="radio" class="nan" id="sex"><label>男</label><input type="radio" name="radio" class="nv"><label>女</label><br>
+                <p class="p4">破壳日</p><input type="text" class="year" id="year"><input type="text" class="month" id="month"><input type="text" class="day" id="date"><br>
+                <p class="p5">电话</p><input type="text" class="phone" id="phonenumber"><br>
+                <input type="submit" placeholder="提交" class="tijiao" id="btn">
+            </div>
+        </div>
+        <div class="fankui">
+            <p class="p6">用户反馈</p> <br>
+            <input type="text" class="fankuibox" > <br>
+            <input type="button" class="jiao" value="提交">
+        </div>
+    </div>
+
+</div>
+<script src="../js/revisedata.js"></script>
+<script src="../js/revisedata2.js"></script>
+</body>
+</html>

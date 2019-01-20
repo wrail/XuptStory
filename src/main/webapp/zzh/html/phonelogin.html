@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>手机验证码登录</title>
+    <link rel="stylesheet" type="text/css" href="../css/phonelogin.css" />
+</head>
+<body>
+<div class="index">
+    <!--头部导航-->
+    <div class="header">
+        <div class="nav">
+            <img src="../img/logo.jpg" class="navimg">
+            <div class="navbar">
+                <ul>
+                    <li><a href="index.html">主页</a></li>
+                    <li><a href="xiyou.html">校园</a></li>
+                    <li><a href="story.html">故事</a></li>
+                    <li><a href="login.html">登录</a></li>
+                    <li><a href="register.html">注册</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--登录页面-->
+    <div class="login">
+        <div class="loginbox">
+            <p class="p1">验证码登录</p>
+            <p class="p2">还没有账号?<a href="login.html">注册</a></p>
+            <div class="phonebox">
+                <select class="select1">
+                    <option>
+                        +86
+                    </option>
+                </select>
+                <input type="text" placeholder="请输入手机号码" class="input1" id="number">
+            </div>
+            <!--<div class="verification">-->
+            <input type="text" placeholder="请输入验证码" class="input2" id="msmcode">
+            <button id="sendbtn" class="getCode input3">发送验证码</button>
+            <input type="button" value="登录" class="input6" id="btn">
+            <!--其他方式注册-->
+            <div class="order">
+                <span class="line1"></span>
+                <span class="txt">其他方式登录</span>
+                <span class="line2"></span>
+            </div>
+            <div class="imgbox">
+                <a href="login.html" class="qq"></a>
+                <a href="login.html" class="wechat"></a>
+                <a href="login.html" class="weibo"></a>
+            </div>
+        </div>
+    </div>
+    <a class="a1"></a>
+</div>
+<script src="../js/jquery-1.11.3.min.js"></script>
+<script src="../js/phonelogin.js"></script>
+</body>
+</html>

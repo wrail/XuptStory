@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>忘记密码</title>
+    <link rel="stylesheet" type="text/css" href="../css/forget.css" />
+</head>
+<body>
+<div class="index">
+    <!--头部导航-->
+    <div class="header">
+        <div class="nav">
+            <img src="../img/logo.jpg" class="navimg">
+            <div class="navbar">
+                <ul>
+                    <li><a href="index.html">主页</a></li>
+                    <li><a href="xiyou.html">校园</a></li>
+                    <li><a href="story.html">故事</a></li>
+                    <li><a href="login.html">登录</a></li>
+                    <li><a href="register.html">注册</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--登录页面-->
+    <div class="login">
+        <div class="loginbox">
+            <p class="p1">重置密码</p>
+            <p class="p2">请输入与您的账号关联的电话号码，我们将会给您发送<br>验证码来重置密码。</p>
+            <div class="phonebox">
+                <select class="select1">
+                    <option>
+                        +86
+                    </option>
+                </select>
+                <input type="text" placeholder="请输入常用手机号码" class="input1" id="number">
+            </div>
+            <input type="text" placeholder="请输入验证码" class="input2" id="msmcode">
+            <button id="sendbtn" class="getCode">发送验证码</button>
+            <input type="button" value="修改密码" class="input6" id="btn">
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="../js/forget.js"></script>
+</body>
+</html>

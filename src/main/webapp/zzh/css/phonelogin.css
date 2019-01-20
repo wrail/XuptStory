@@ -1,0 +1,305 @@
+/*导航部分*/
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?7kkyc2');
+    src: url('fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?7kkyc2') format('truetype'),
+    url('fonts/icomoon.woff?7kkyc2') format('woff'),
+    url('fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background-color: #F8F8F8;
+}
+.nav {
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+}
+.navbar {
+    width: 48%;
+    height: 60px;
+    float: right;
+    line-height: 60px;   /*行高给父亲，因为行高会继承*/
+}
+.navbar>ul {
+    margin-top: 13px;
+    margin-left: 300px;
+}
+.navbar>ul>li {
+    float: left;
+    width: 70px;
+}
+.navbar>ul>li>a {
+    width: 40px;
+    display: inline-block;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+.navbar>ul>li>a:hover {
+    border-bottom: 2px solid #000;
+}
+.navimg {
+    width: 80px;
+    height: 80px;
+    float: left;
+    background: url("../img/logo.jpg") no-repeat;
+    background-size: 100% 100%;
+    margin-left: 20px;
+}
+/*登录部分*/
+.login {
+    width: 100%;
+    height: 674px;
+    background: url("../img/back1 (3).jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.loginbox {
+    width: 473px;
+    height: 430px;
+    background-color: #fff;
+    float: right;
+    margin-right: 100px;
+    margin-top: 30px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(235,235,235);
+    border-radius: 4px;
+    box-shadow: rgba(0,0,0,0.1) 0px 2px 4px !important;
+}
+.loginbox:hover {
+    box-shadow: rgba(0,0,0,0.1) 0px 2px 4px,rgba(156,160,171,0.25) 0px 2px 5px !important;
+}
+.p1 {
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #484848;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+.p2 {
+    font-size: 16px;
+    color: #484848;
+    margin-top: 7px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+.p2>a {
+    color: #648fb9;
+    font-size: 16px;
+    margin-left: 5px;
+}
+.select1 {
+    width: 85px;
+    height: 40px;
+    border-radius: 5px;
+    float: left;
+    outline: none;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.select1:focus {
+    border: 1px solid #739fc6;
+}
+.input1 {
+    width: 284px;
+    height: 38px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #BFBFBF;
+    outline: none;
+    padding-left: 15px;
+    /*box-sizing: content-box;*/
+}
+.input1::-webkit-input-placeholder{
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #767676;
+}
+.input1:focus {
+    border: 1px solid #739fc6;
+}
+.input2 {
+    width: 235px;
+    height: 38px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #BFBFBF;
+    outline: none;
+    padding-left: 15px;
+}
+.input2::-webkit-input-placeholder{
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #767676;
+}
+.input2:focus {
+    border: 1px solid #739fc6;
+}
+.input3 {
+    width: 130px;
+    height: 38px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #BFBFBF;
+    outline: none;
+    background-color: #749ec6;
+    color: #fff;
+    cursor: pointer;
+}
+.input3::-webkit-input-placeholder{
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #767676;
+}
+.input3:focus {
+    border: 1px solid #739fc6;
+}
+.input4 {
+    width: 389px;
+    height: 38px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #BFBFBF;
+    outline: none;
+    padding-left: 15px;
+}
+.input4::-webkit-input-placeholder{
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #767676;
+}
+.input4:focus {
+    border: 1px solid #739fc6;
+}
+.checkedbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 450px;
+    height: 100px;
+}
+.input5:checked {
+    border: 2px solid #000;
+}
+.input5 {
+    display: block;
+    width: 30px;
+    height: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.p3 {
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: 30px;
+    display: inline;
+    color: #484848;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.input6 {
+    width: 406px;
+    height: 55px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #fff;
+    background-color: #ff5a60;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.order {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+.order .line1 {
+    display: inline-block;
+    width: /*141*/175px;
+    border-top: 1px solid #ccc ;
+    margin-left: /*65*/-89px;
+}
+.order .line2 {
+    display: inline-block;
+    width: /*150*/191px;
+    border-top: 1px solid #ccc;
+    margin-right: /*-38*/-90px;
+}
+.order .txt {
+    color: #686868;
+    vertical-align: middle;
+}
+.imgbox {
+    height: 95px;
+    margin-top: -22px;
+}
+.qq {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: url("../img/qq.gif") no-repeat;
+    background-size: cover;
+    float: left;
+    margin-left: 35px;
+    margin-top: 25px;
+}
+.qq:hover {
+    background: url("../img/qqhover.gif") no-repeat;
+    background-size: cover;
+}
+.wechat {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: url("../img/wechat.gif") no-repeat;
+    background-size: cover;
+    float: left;
+    margin-left: 115px;
+    margin-top: 25px;
+}
+.wechat:hover {
+    background: url("../img/wechathover.gif") no-repeat;
+    background-size: cover;
+}
+.weibo {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: url("../img/weibo.gif") no-repeat;
+    background-size: cover;
+    float: left;
+    margin-left: 115px;
+    margin-top: 25px;
+}
+.weibo:hover {
+    background: url("../img/weibohover.gif") no-repeat;
+    background-size: cover;
+}
+
+
+
+
